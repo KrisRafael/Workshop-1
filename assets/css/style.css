@@ -5,13 +5,12 @@ html{
     display: flex;
     margin: 0;
     padding: 0;
-    width: 1626px;
+    width: 1500px;
     display: flex;
     font-family: "Raleway","Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300 400 700 800;
     font-style: normal;
-    border: 2px solid red;
     box-shadow: rgba(7, 172, 230, 0.16); 
 }
 body{
@@ -64,9 +63,9 @@ body{
 }
 /*-----------------------------Opening Section-----------------------------*/
 .opening-sec-container{
-    width: 1626px;
+    width: 1500px;
     display: flex;
-    height: 80vh;
+    height: 50vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -75,15 +74,26 @@ body{
 .opening-title{          /*-----------Opening title-------------*/
     font-size: 57px;
     line-height: 10px;
+    font: normal normal normal 49px/57px Raleway;
+    padding: -60px;
 }
-.opening-text{            /*-----------Opening text-------------*/
+.opening-text{  
+    top: 277px;
+    left: 621px;
+    width: 384px;          /*-----------Opening text-------------*/
     font-size: 22px;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    line-height: 80px;
+    margin-top: -30px;
 }
 .btn a{                  /*-----------Opening button-------------*/
     top: 337px;
     left: 593px;
-    width: 440px;
-    height: 67px;
+    width: 640px;
+    height: 45px;
     font-size: 22px;
     font-weight: 126px;
     color: #FFFFFF;
@@ -93,6 +103,10 @@ body{
     padding: 20px 80px;
     opacity: 1;
     line-height: 110px;
+    text-align: center;
+    font: normal normal bold 16px/22px Open Sans;
+    letter-spacing: 0px;
+    padding: 18px 150px;
 }
 .main-open-banner{      /*----------Opening section banner contaier--------*/
     display: flex;
@@ -100,7 +114,7 @@ body{
     padding-top: -200px;
 }
 .open-sec-banner{      /*----------Opening section banner photo--------*/
-    width: 1626px;
+    width: 1500px;
     height: 594px;
     border: 3px solid green;
 }
@@ -108,10 +122,10 @@ body{
 .main-ft-container{  /*--------Footer Main-Main page container Logo--------*/
     display: flex;
     height: 89px;
-    width: 1626px;
+    width: 1500px;
     border-left: 30px;
     margin: 0;
-    border: 2px solid silver;
+   
     background: #F7F7F7 0% 0% no-repeat padding-box;
     box-shadow: 0px -5px 40px #00000029;
     opacity: 1;
@@ -153,8 +167,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid darkblue;
-    margin-right: 120px;
+    border: 2px solid darkgray;
+    margin-right: 60px;
 }
 .footer-photos{            /*------------Footer photos--------------*/
     height: 100px;
@@ -165,7 +179,7 @@ body{
     height: 80px;
     border: 3px solid violet;
     margin-left: 200px;
-    gap: 15px;
+    gap: 30px;
 }
 
 
