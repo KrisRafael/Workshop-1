@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 1626px;
+    display: flex;
+    font-family: "Raleway","Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300 400 700 800;
+    font-style: normal;
+    border: 2px solid red;
+    box-shadow: rgba(7, 172, 230, 0.16); 
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/*----------------------------Menu navigation-------------------------------*/
+.header-container{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid silver;
+}
+.header-container-2{    /*-----------Container Logo Best shop---------*/
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    padding-right: 860px;
+}
+.logo{             /*--------------Logo Best shop---------*/
+    display: flex;
+    color: #08A6E4;
+    width: 142px;
+    height: 37px;
+    top: 16px;
+    left: 136px;
+    text-align: left;
+    font: normal normal 300 32px/37px Raleway;
+    letter-spacing: 0px;
+    opacity: 1;
+    padding-left: 60px;
+}
+.menu a{                  /*----------------Menu-------------------*/
+    color: #A5A5A5;
+    top: 28px;
+    left: 1101px;
+    width: 74px;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font: normal normal bold 11px/15px Open Sans;
+    letter-spacing: 3.28px;
+    margin: 36px;
+    padding: 35px 0px;
+}
+.menu a:hover{                /*-----------Menu effect přechod ------------*/
+    color: #000000;
+    border-bottom: 3px solid  #08A6E4;
+}
+/*-----------------------------Opening Section-----------------------------*/
+.opening-sec-container{
+    width: 1626px;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: -20px;
+}
+.opening-title{          /*-----------Opening title-------------*/
+    font-size: 57px;
+    line-height: 10px;
+}
+.opening-text{            /*-----------Opening text-------------*/
+    font-size: 22px;
+}
+.btn a{                  /*-----------Opening button-------------*/
+    top: 337px;
+    left: 593px;
+    width: 440px;
+    height: 67px;
+    font-size: 22px;
+    font-weight: 126px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #08A6E4 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    padding: 20px 80px;
+    opacity: 1;
+    line-height: 110px;
+}
+.main-open-banner{      /*----------Opening section banner contaier--------*/
+    display: flex;
+    padding-bottom: 400px;
+    padding-top: -200px;
+}
+.open-sec-banner{      /*----------Opening section banner photo--------*/
+    width: 1626px;
+    height: 594px;
+    border: 3px solid green;
+}
+/*--------------------------Footer---------------------------------------*/
+.main-ft-container{  /*--------Footer Main-Main page container Logo--------*/
+    display: flex;
+    height: 89px;
+    width: 1626px;
+    border-left: 30px;
+    margin: 0;
+    border: 2px solid silver;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    box-shadow: 0px -5px 40px #00000029;
+    opacity: 1;
+    justify-content: space-between;
+    line-height: 300px;
+}
+.footer-container{      /*----------Footer Main container Logo--------*/
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    border: 2px solid violet;
+    margin-left: 100px;
+}
+.footer-logo{            /*----------Footer container Logo--------*/
+    display: flex;
+    width: 142px;
+    height: 37px;
+    color: #08A6E4;
+    font-size: 30px;
+    font: normal normal 300 26px/30px Raleway;
+    letter-spacing: 0px;
+    opacity: 1;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.copyright{              /*----------Footer container copyright--------*/
+    display: flex;
+    width: 300px;
+    color: #A5A5A5;
+    font: normal normal normal 11px/15px Open Sans;
+    opacity: 1;
+    font-size: 15px;
+    border: 2px solid darkgrey;
+    padding: 5px 10px;
+    margin-left: 35px;
+    line-height: 5px;
+}
+.photo-ft-container{      /*----------Footer container photo--------*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid darkblue;
+    margin-right: 120px;
+}
+.footer-photos{            /*------------Footer photos--------------*/
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 80px;
+    border: 3px solid violet;
+    margin-left: 200px;
+    gap: 15px;
+}
+
+
