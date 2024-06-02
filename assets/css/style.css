@@ -548,19 +548,25 @@ input[type=text]{
     letter-spacing: 3.28px;
 } /*---------------Label and Input ------------------*/
 /*---------------Text in container 2 ------------------*/
-input[type=checkbox]{
+input[type="checkbox"] {
+    appearance: none;
+    flex-shrink: 0;
     display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    border: 2px solid dodgerblue;
-    background: white;
-    border-radius: 5px;
-    position: relative;
-    transform:  translate(17px)translateY(-65px); 
+    width: 24px;
+    height: 24px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+input[type="checkbox"]:checked{
+    background-image: url(Checkmark.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 label[for=souhlas]{ 
-    display: inline-block;
+    display: flex;
     color: #707070;
+    align-items: baseline;
     width: 350px;
     height: 30px;
     font-size: 5px;
@@ -569,7 +575,6 @@ label[for=souhlas]{
     letter-spacing: 0px;
     transform:  translate(23px)translateY(50px);
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    
 }
 
 /*--------------------------Footer---------------------------------------*/
